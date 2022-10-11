@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dates-reminder/static/css/main.9d0fd757.css",
+    "main.js": "/dates-reminder/static/js/main.c61c308f.js",
+    "static/media/marioFace.png": "/dates-reminder/static/media/marioFace.2fdb36311167c85f8636.png",
+    "index.html": "/dates-reminder/index.html",
+    "main.9d0fd757.css.map": "/dates-reminder/static/css/main.9d0fd757.css.map",
+    "main.c61c308f.js.map": "/dates-reminder/static/js/main.c61c308f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d0fd757.css",
+    "static/js/main.c61c308f.js"
+  ]
+}
