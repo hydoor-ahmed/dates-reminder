@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d0fd757.css",
-    "main.js": "/static/js/main.9eaf0a29.js",
-    "static/media/marioFace.png": "/static/media/marioFace.2fdb36311167c85f8636.png",
-    "index.html": "/index.html",
-    "main.9d0fd757.css.map": "/static/css/main.9d0fd757.css.map",
-    "main.9eaf0a29.js.map": "/static/js/main.9eaf0a29.js.map"
+    "main.css": "/dates-reminder/static/css/main.9d0fd757.css",
+    "main.js": "/dates-reminder/static/js/main.a58da94b.js",
+    "static/media/marioFace.png": "/dates-reminder/static/media/marioFace.2fdb36311167c85f8636.png",
+    "index.html": "/dates-reminder/index.html",
+    "main.9d0fd757.css.map": "/dates-reminder/static/css/main.9d0fd757.css.map",
+    "main.a58da94b.js.map": "/dates-reminder/static/js/main.a58da94b.js.map"
   },
   "entrypoints": [
     "static/css/main.9d0fd757.css",
-    "static/js/main.9eaf0a29.js"
+    "static/js/main.a58da94b.js"
   ]
 }
