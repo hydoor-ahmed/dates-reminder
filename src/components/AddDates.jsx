@@ -17,7 +17,7 @@ const AddDates = ({ setDatesList }) => {
     <div className="w-full md:w-[70%] text-center pt-4 flex flex-col sm:flex-row justify-center items-center">
       <div className="flex flex-col md:flex-row w-full sm:w-fit">
         <input
-          onChange={(e) => (name = e.target.value)}
+          onChange={(e) => (name = e.target.value.trim())}
           className="outline-none rounded shadow ml-2 py-2 px-2 w-full mb-2 md:mb-0"
           type="text"
           placeholder="اسم الموعد"
