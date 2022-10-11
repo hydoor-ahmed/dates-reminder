@@ -14,10 +14,9 @@ const App = () => {
     setDatesList(dates);
   };
 
-  useEffect(()=> {
-    setDatesList(dates.splice(0, 1))
-  }, [])
-
+  useEffect(() => {
+    setDatesList(dates.splice(0, 1));
+  }, []);
 
   return (
     <div className="container flex flex-col items-center px-2 mx-auto">
@@ -27,7 +26,6 @@ const App = () => {
 
         <DatesContainer datesList={datesList} />
         <Buttons showDates={showDates} removeDates={removeDates} />
-
       </div>
     </div>
   );

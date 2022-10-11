@@ -1,11 +1,10 @@
 import marioFace from "../assets/imgs/marioFace.png";
 
-const DatesContainer = ({datesList}) => {
-
+const DatesContainer = ({ datesList }) => {
   return (
     <div className=" min-h-[520px] shadow-md mt-3 w-full h-full py-2 rounded-xl">
-    {datesList.length > 0 ? (
-      datesList.map((date) => {
+      {datesList.length > 0 ? (
+        datesList.map((date) => {
           return (
             <div
               key={date.id}
@@ -19,9 +18,11 @@ const DatesContainer = ({datesList}) => {
             </div>
           );
         })
-    ) : <h1 className="mr-3 mt-2">لاتوجد مواعيد</h1>}
-  </div>
-  )
-}
+      ) : (
+        <h1 className="mr-3 mt-2">لاتوجد مواعيد</h1>
+      )}
+    </div>
+  );
+};
 
-export default DatesContainer
+export default DatesContainer;

@@ -4,5 +4,4 @@ export const dates = [
     name: "",
     time: "",
   },
-
 ];
