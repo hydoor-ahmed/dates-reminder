@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AddDates from "./components/AddDates";
 import Buttons from "./components/Buttons";
 import DatesContainer from "./components/DatesContainer";
@@ -13,6 +13,10 @@ const App = () => {
   const showDates = () => {
     setDatesList(dates);
   };
+
+  useEffect(()=> {
+    setDatesList(dates.splice(0, 1))
+  }, [])
 
 
   return (
